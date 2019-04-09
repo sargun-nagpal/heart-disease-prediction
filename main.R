@@ -1,8 +1,6 @@
 
 #********************************* PREPROCESSING****************************************
 
-setwd("N:\\Acads\\4-2\\ML\\Assignment")
-
 #Reading and viewing the CSV
 ip <-read.csv(file="processed_cleveland_data.csv", head=TRUE, sep=",")
 head(ip,5)
